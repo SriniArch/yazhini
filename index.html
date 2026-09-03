@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Yazhini 🌸</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:"Comic Sans MS","Trebuchet MS",sans-serif;background:linear-gradient(135deg,#fff4fb,#eef8ff);color:#333;min-height:100vh;overflow-x:hidden}
+    .decoration{position:fixed;font-size:35px;animation:float 4s ease-in-out infinite;pointer-events:none;z-index:0}
+    .d1{top:8%;left:5%}.d2{top:20%;right:6%;animation-delay:1s}.d3{bottom:15%;left:8%;animation-delay:2s}.d4{bottom:8%;right:8%;animation-delay:.5s}
+    @keyframes float{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-15px) rotate(5deg)}}
+    .container{width:min(900px,92%);margin:auto;position:relative;z-index:1}
+    .hero{text-align:center;padding:60px 20px 35px}
+    .avatar{width:150px;height:150px;margin:0 auto 20px;border-radius:50%;background:linear-gradient(135deg,#ffb6d9,#b8e4ff);display:flex;align-items:center;justify-content:center;font-size:75px;border:7px solid white;box-shadow:0 10px 30px rgba(0,0,0,.12);animation:bounce 2.5s infinite}
+    @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    h1{font-size:clamp(42px,8vw,70px);color:#ff5fa2;text-shadow:3px 3px 0 #ffd5e8}
+    .subtitle{margin-top:10px;font-size:21px;color:#555}
+    .school{display:inline-block;margin-top:15px;padding:10px 20px;background:white;border-radius:30px;box-shadow:0 5px 15px rgba(0,0,0,.08);color:#6575d8;font-weight:bold}
+    .section{background:rgba(255,255,255,.85);border-radius:25px;padding:28px;margin:25px 0;box-shadow:0 8px 25px rgba(0,0,0,.08);border:3px solid rgba(255,255,255,.9)}
+    .section h2{font-size:28px;margin-bottom:18px;color:#6b63d8}
+    .about-text{font-size:18px;line-height:1.8}
+    .facts{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+    .fact{padding:18px;border-radius:18px;background:#fff5fa;font-size:17px}
+    .fact strong{display:block;color:#ff5fa2;margin-bottom:5px}
+    .likes{display:flex;flex-wrap:wrap;gap:12px}
+    .like{padding:12px 18px;border-radius:25px;background:#f0f4ff;font-size:17px;transition:transform .2s}
+    .like:hover{transform:scale(1.08) rotate(-2deg)}
+    .dream{text-align:center;background:linear-gradient(135deg,#fff0f8,#f0f7ff)}
+    .dream .big{font-size:50px;margin-bottom:10px}
+    .dream p{font-size:20px;line-height:1.6}
+    footer{text-align:center;padding:30px 10px 45px;color:#777;font-size:16px}
+    .heart{color:#ff5fa2;animation:heartbeat 1.2s infinite;display:inline-block}
+    @keyframes heartbeat{0%,100%{transform:scale(1)}15%{transform:scale(1.2)}30%{transform:scale(1)}}
+    @media(max-width:600px){.facts{grid-template-columns:1fr}.hero{padding-top:40px}.section{padding:22px}}
+  </style>
+</head>
+<body>
+  <div class="decoration d1">🌸</div><div class="decoration d2">⭐</div>
+  <div class="decoration d3">🦋</div><div class="decoration d4">🌈</div>
+  <main class="container">
+    <section class="hero">
+      <div class="avatar">👧🏻</div>
+      <h1>Hi! I'm Yazhini 👋</h1>
+      <p class="subtitle">Welcome to my little corner of the internet! ✨</p>
+      <div class="school">🎒 3rd Standard • Sri Chaitanya School</div>
+    </section>
+    <section class="section">
+      <h2>🌸 A Little About Me</h2>
+      <p class="about-text">Hello! My name is <strong>Yazhini</strong>. I am a happy and curious girl studying in the <strong>3rd standard at Sri Chaitanya School</strong>. I love learning new things, having fun with my friends, and discovering the world around me! 🌎✨</p>
+    </section>
+    <section class="section">
+      <h2>⭐ My Fun Facts</h2>
+      <div class="facts">
+        <div class="fact"><strong>🎒 School</strong>Sri Chaitanya School</div>
+        <div class="fact"><strong>📚 Class</strong>3rd Standard</div>
+        <div class="fact"><strong>🧠 I Love</strong>Learning new things</div>
+        <div class="fact"><strong>😊 I Am</strong>Curious & cheerful</div>
+      </div>
+    </section>
+    <section class="section">
+      <h2>💖 Things I Like</h2>
+      <div class="likes">
+        <div class="like">📚 Reading</div><div class="like">🎨 Drawing</div>
+        <div class="like">🧩 Puzzles</div><div class="like">🎵 Music</div>
+        <div class="like">🦋 Nature</div><div class="like">🎮 Games</div>
+        <div class="like">🔬 Learning</div><div class="like">👯 Friends</div>
+      </div>
+    </section>
+    <section class="section dream">
+      <div class="big">🚀</div><h2>🌟 My Dreams</h2>
+      <p>I want to keep learning, keep asking questions, and become someone who can make the world a little better! 💕</p>
+    </section>
+    <footer>Made with <span class="heart">♥</span> for Yazhini 🌸<br><small>© 2026 Yazhini's Little Space</small></footer>
+  </main>
+</body>
+</html>
